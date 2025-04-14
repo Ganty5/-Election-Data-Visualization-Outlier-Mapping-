@@ -8,13 +8,15 @@ The dashboard is divided into three interactive pages:
 
 1. **Executive Overview** – High-level KPIs, trends in party votes, turnout patterns, demographics, and urban vs rural participation.
 2. **Outlier Analysis** – Highlights clusters with unusual voting behavior using DBSCAN clustering.
-3. **Cluster Tooltip Page** *(Optional Hover View)* – Dynamic insight popups for each cluster, showing voting unit count and share of outliers.
+3. **Cluster Tooltip Page** – Dynamic insight popups for each cluster, showing voting unit count and share of outliers.
 
 ---
 
 ## 📊 Key Features
 
 ### ✅ Page 1: Executive Overview
+![image](https://github.com/user-attachments/assets/faa49b20-7ff3-432c-9f3d-0fd893844d70)
+
 - **KPIs**: Total Registered Voters (10M), Total Accredited Voters (4M).
 - **Party Vote Trends**: Interactive filters show APC & PDP performance over the years.
 - **Turnout Over Time**: Bar + Line combo to show how voter turnout (%) compares with registration trends.
@@ -23,6 +25,8 @@ The dashboard is divided into three interactive pages:
 - **Voter Engagement Correlation**: Plots accredited voters vs population to identify turnout consistency.
 
 ### 🧪 Page 2: Outlier Analysis
+![image](https://github.com/user-attachments/assets/5d5cdb99-22dd-4bdd-8d0a-31f1b3d4c986)
+
 - **DBSCAN Clustering (500m radius)** applied to geospatial voting units to detect voting anomalies.
 - **Cluster with Most Outliers**: ID `286` has the highest flagged outliers.
 - **Final Outlier Flag (True/False)**: Percentage of anomalous units shown on bar chart & map.
@@ -33,7 +37,6 @@ The dashboard is divided into three interactive pages:
 ### 🧩 Tooltip Page
 - **Polling Units in Cluster**: Total units associated with each cluster ID.
 - **Outlier Share (Gauge)**: Proportion of those units flagged as anomalies.
-- *(Optional)* Mini KPI: Could include metrics like average accredited voter count for the cluster.
 
 ---
 

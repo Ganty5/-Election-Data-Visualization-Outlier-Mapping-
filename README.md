@@ -1,8 +1,8 @@
-# 🗳️ Advanced Geospatial Election Integrity Analysis - Anambra
+# Advanced Geospatial Election Integrity Analysis - Anambra
 
 This project provides a deep analytical and visual exploration of election data in Anambra State, Nigeria. Using advanced geospatial techniques, outlier detection algorithms, and contextual demographic analysis, it uncovers patterns in voter engagement, turnout irregularities, and potential anomalies from 1999 to 2023.
 
-## 📌 Project Summary
+## Project Summary
 
 The dashboard is divided into three interactive pages:
 
@@ -12,9 +12,9 @@ The dashboard is divided into three interactive pages:
 
 ---
 
-## 📊 Key Features
+## Key Features
 
-### ✅ Page 1: Executive Overview
+### Page 1: Executive Overview
 ![image](https://github.com/user-attachments/assets/faa49b20-7ff3-432c-9f3d-0fd893844d70)
 
 - **KPIs**: Total Registered Voters (10M), Total Accredited Voters (4M).
@@ -24,7 +24,7 @@ The dashboard is divided into three interactive pages:
 - **Demographic Influence**: Maps population distribution to voting participation.
 - **Voter Engagement Correlation**: Plots accredited voters vs population to identify turnout consistency.
 
-### 🧪 Page 2: Outlier Analysis
+### Page 2: Outlier Analysis
 ![image](https://github.com/user-attachments/assets/5d5cdb99-22dd-4bdd-8d0a-31f1b3d4c986)
 
 - **DBSCAN Clustering (500m radius)** applied to geospatial voting units to detect voting anomalies.
@@ -34,13 +34,13 @@ The dashboard is divided into three interactive pages:
 - **Turnout Treemap**: Quickly shows which years had lower or higher participation density.
 - **Population vs Accredited Voters**: Emphasizes magnitude differences by outlier status.
 
-### 🧩 Tooltip Page
+### Tooltip Page
 - **Polling Units in Cluster**: Total units associated with each cluster ID.
 - **Outlier Share (Gauge)**: Proportion of those units flagged as anomalies.
 
 ---
 
-## 🧠 Insights & Findings
+## Insights & Findings
 
 - **Cluster 286** contributed disproportionately to the total outliers.
 - **Outlier Units** had significantly lower accredited voter counts compared to non-outliers.
@@ -50,7 +50,7 @@ The dashboard is divided into three interactive pages:
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - **Power BI** for interactive dashboard design and visuals
 - **Python** (used for preprocessing, clustering, DBSCAN labeling)
